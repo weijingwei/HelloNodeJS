@@ -19,7 +19,7 @@ fs.open('input.txt', 'r+', function(err, fd) {
          console.log(err);
       } 
       console.log("文件截取成功。");
-      console.log("读取相同的文件"); 
+      console.log("读取相同的文件");
       fs.read(fd, buf, 0, buf.length, 0, function(err, bytes){
          if (err){
             console.log(err);
