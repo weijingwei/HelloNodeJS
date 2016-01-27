@@ -1,6 +1,8 @@
 /**
  * http://usejsdoc.org/
  */
+
+// 对象转字符串
 var util = require('util'); 
 function Person() { 
 	this.name = 'byvoid'; 
